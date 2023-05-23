@@ -11,6 +11,12 @@ body {
 button.nav-link.text-colored.active {
    color: #fff;
 }
+.nav-cardapio .nav-link.text-colored {
+   color: #e15f41;
+}
+.button:hover {
+   color: #fff;
+}
 #cabecalho .nav .nav-link.active {
    background-color: #fff;
    color: #e15f41;
@@ -25,7 +31,8 @@ button.nav-link.text-colored.active {
    color: #e15f41;
 }
 
-#sobre-o-restaurante {
+#sobre-o-restaurante,
+#cardapio {
    background-color: #ffeae6;
 }
 .nav-cardapio .nav-link.active {
@@ -34,4 +41,7 @@ button.nav-link.text-colored.active {
 }
 .nav-cardapio .nav-link:hover {
    color: #e15f41;
+}
+.nav-cardapio.nav-link.active:hover {
+   color: #fff;
 }
