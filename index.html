@@ -55,7 +55,7 @@
                      >
                   </li>
                   <li class="nav-item fw-bold">
-                     <a class="nav-link" href="#">
+                     <a class="nav-link" href="#fale-conosco">
                         <i class="bi bi-chat-left-text me-1"></i>Fale conosco</a
                      >
                   </li>
@@ -63,7 +63,7 @@
             </nav>
          </div>
       </header>
-      <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+      <div data-bs-spy="scroll" data-bs-target="#cabecalho" data-bs-smooth-scroll="true">
          <section id="sobre-o-restaurante">
             <div
                id="carouselRestaurant"
@@ -139,7 +139,7 @@
                            alt="Foto do interior do restaurante"
                         />
                      </div>
-                     <div class="col-md-7">
+                     <div class="col-md-7 mt-3 mt-md-0">
                         <h2 class="section-title">
                            Sobre <span class="text-clored">o restaurante</span>
                         </h2>
@@ -234,10 +234,10 @@
                </div>
             </div>
          </section>
-         <section id="cardapio" class="pt-5 pb-4">
+         <section id="cardapio" class="pt-5 pb-5">
             <div class="container">
-               <div class="row">
-                  <h2 class="section-title text-center pb-2">
+               <div class="row mb-3">
+                  <h2 class="section-title text-center">
                      Nosso <span class="text-clored">cardápio</span>
                   </h2>
                </div>
@@ -601,6 +601,72 @@
                   </div>
                </div>
             </div>
+         </section>
+         <section id="fale-conosco" class="pb-5 pt-5">
+             <div class="container">
+               <div class="row">
+                  <h2 class="section-title text-center">
+                     Fale <span class="text-clored">conosco</span>
+                  </h2>
+               </div>
+               <div class="row">
+                  <div class="col-md-7 mb-5">
+                     <form>
+                        <div class="mb-3">
+                           <label for="nome" class="form-label fw-bold text-clored">Seu nome</label>
+                           <input type="text" id="nome" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                           <label for="email" class="form-label fw-bold text-clored">Seu e-mail</label>
+                           <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="mb-3">
+                           <label for="telefone" class="form-label fw-bold text-clored">Seu telefone (opcional)</label>
+                           <input type="tel" id="telefone" class="form-control">
+                        </div>
+                        <div class="mb-3">
+                           <label for="mensagem" class="form-label fw-bold text-clored">Sua mensagem</label>
+                           <textarea id="mensagem"class="form-control" required></textarea>                           
+                        </div>
+                        <button type="button" class="btn fw-bold">Enviar</button>
+                     </form>
+                  </div>
+                  <div class="col-md-5">
+                     <div class="row">
+                        <h3 class="section-title fs-4 text-clored">
+                           <i class="bi bi-hand-thumbs-up-fill"></i>
+                           Redes sociais
+                        </h3>
+                        <ul class="social-links">
+                           <li class="fs-5">
+                              <a href="#">
+                                 <i class="bi bi-facebook text-clored"></i>
+                              </a>
+                           </li>
+                           <li class="fs-5 ms-1 me-1">
+                              <a href="#">
+                                 <i class="bi bi-instagram text-clored"></i>
+                              </a>
+                           </li>
+                           <li class="fs-5">
+                              <a href="#">
+                                 <i class="bi bi-whatsapp text-clored"></i>
+                              </a>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="row mt-4">
+                        <h3  class="section-title fs-4 text-clored">
+                           <i class="bi bi-cursor-fill"></i>
+                           Endereço
+                        </h3>
+                        <p>
+                           Rua Teste Exemplo nº145, Bairoo Bootstrap - Cuiabá - MT
+                        </p>
+                     </div>
+                  </div>
+               </div>
+             </div>
          </section>
       </div>
       <script
